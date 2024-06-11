@@ -1,5 +1,5 @@
 let usuario;
-const aleatorio = Math.floor(Math.random() * 300 + 1);
+const aleatorio = Math.floor(Math.random() * 200 + 1);
 
 console.log("Adivinhe um número");
 process.stdin.on("data", function (data) {
